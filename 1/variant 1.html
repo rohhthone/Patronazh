@@ -29,12 +29,12 @@
         justify-content: center;
         flex-wrap: wrap;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 21px;
+        font-size: 20pt;
         color: #fbfbfb;
         font-weight: 300;
         background: radial-gradient(
           farthest-corner at 50vw 100vh,
-          #057 0%,
+          rgb(0, 108, 151) 10%,
           #034 100%
         );
       }
@@ -46,8 +46,9 @@
         flex-direction: column;
       }
       .d7 {
-        gap: 1.5em;
+        gap: 1.2em;
         width: 92vw;
+        padding: 0 0 48px 0;
       }
       a {
         color: #ff7373;
@@ -86,13 +87,14 @@
         align-items: center;
       }
       .d3 > a {
-        font-size: 3em;
+        font-size: 2.5em;
         color: #fbfbfb;
         text-decoration: none;
+        padding: 0 0 0 32px;
       }
       h1 {
         font-size: 5em;
-        letter-spacing: 0.05em;
+        letter-spacing: -2px;
       }
       .d2 {
         align-self: flex-end;
@@ -113,22 +115,30 @@
         position: fixed;
         right: 0;
         bottom: 0;
-        height: 500px;
-        width: 350px;
+        height: 700px;
+        width: 550px;
         background-position: right bottom;
         background-repeat: no-repeat;
         background-size: contain;
       }
 
       .d4 {
-        gap: 8px;
+        gap: 4px;
+        margin: 0 0 48px 0;
       }
 
       .d1 {
         font-size: 1em;
       }
+
+      .d1 > a {
+        font-size: 1em;
+        text-decoration: none;
+      }
       .d2 {
         font-size: 1.4em;
+        letter-spacing: 2px;
+        font-weight: 400;
       }
       .d1,
       .d2,
@@ -141,7 +151,11 @@
       }
 
       .d3 {
-        padding: 0 0 96px 0;
+        padding: 0 0 16px 0;
+        text-shadow: -1px -2px 8px #111;
+      }
+      .d5 {
+        margin: 0 0 32px 0;
       }
     </style>
 
@@ -154,10 +168,15 @@
       ><a href="" class="white">справочник</a
       ><a href="" class="white">контакты</a>
     </div>
-    <div class="d2">Общегородская патронажная служба</div>
+    <div
+      class="d2"
+      style="font-weight: 400; font-size: 33pt; font-family: Corbel"
+    >
+      Общегородская патронажная служба
+    </div>
     <div class="d3">
       <a href="">407-36-02</a>
-      <h1>Добрые руки</h1>
+      <h1 style="font-size: 97pt">Добрые руки</h1>
     </div>
     <div class="d7">
       <div class="d4">
@@ -176,16 +195,11 @@
       <div class="d5">
         <a href="" class="white no-follow"> Московский пр., 25/1, оф.8</a>
         <a href="" class="white no-follow"> 386-77-76; 331-76-83</a>
-        <a href="" class="red bottop" style="color: #ffffff">
+        <a href="" class="red" style="text-decoration: none">
           Заявки принимаются круглосуточно!</a
         >
       </div>
     </div>
-    <div
-      class="d6"
-      style="
-        background-image: url(https://www.patronagspb.ru/sites/all/themes/patronagspb_theme/app/blocks/hands-bg/images/hand.png);
-      "
-    ></div>
+    <div class="d6" style="background-image: url(1.png)"></div>
   </body>
 </html>
